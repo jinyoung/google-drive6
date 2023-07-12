@@ -33,9 +33,7 @@ public class Video {
     }
 
     public static void processVideo(FileUploaded fileUploaded) {
-        //implement business logic here: fileUploaded 이벤트의 파일명을 이용하여 새로운 비디오를 만들어 저장하고 그 비디오를 바탕으로 VideoProcessed 이벤트를 발생
-
-        // TODO: 구현해주세요.
+        //implement business logic here:
 
         /** Example 1:  new item 
         Video video = new Video();
