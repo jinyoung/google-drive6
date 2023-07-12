@@ -41,7 +41,7 @@ public class Video {
         Video video = new Video();
         video.setFileName(fileUploaded.getFileName());
         video.setVideoUrl("http://youtube.com/" + fileUploaded.getFileName());
-        
+
         repository().save(video);
 
         

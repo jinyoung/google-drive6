@@ -48,7 +48,7 @@ export default {
 </script>
 <style>
 .v-application {
-    background-color: #2196F3 !important;
+    background-color: #00FF00 !important;
 }
 *{
     font-family:  !important;

@@ -1,17 +1,17 @@
 .border-color {
-    border:solid #424242 1px !important;
+    border:solid #4285F4 1px !important;
 }
 
 .main-text-color {
-    color: #F4F9FB !important;
+    color: #000000 !important;
 }
 
 .secondary-text-color {
-    color: #F7E9A0 !important;
+    color: #777777 !important;
 }
 
 .v-application {
-    background-color: #2196F3 !important;
+    background-color: #00FF00 !important;
 }
 
 *{
