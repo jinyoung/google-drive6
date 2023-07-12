@@ -105,10 +105,12 @@
             <v-container style="padding:0px;" v-else fluid>
                 <div style="width:100%; margin:0px 0px 20px 0px; position: relative;">
                     <v-img style="width:100%; height:300px;"
-                        src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-IsZwoYj8yobpFySuytSuI26N/user-ha9EUDa76s1yoHT6JzgqOaFI/img-pDzsKENa6T3FU3zhxe6ck7V8.png?st=2023-07-12T03%3A36%3A38Z&se=2023-07-12T05%3A36%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-07-11T21%3A32%3A37Z&ske=2023-07-12T21%3A32%3A37Z&sks=b&skv=2021-08-06&sig=3%2B/ymK2QQPMVG2KPh0bcgMgP2hkhw7KclOZVyk5ZZvc%3D"
+                        src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-IsZwoYj8yobpFySuytSuI26N/user-ha9EUDa76s1yoHT6JzgqOaFI/img-whMy3YbgyqIdiWt4RlglW0Gi.png?st=2023-07-12T05%3A57%3A56Z&se=2023-07-12T07%3A57%3A56Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-07-11T21%3A32%3A15Z&ske=2023-07-12T21%3A32%3A15Z&sks=b&skv=2021-08-06&sig=k2jtxy7uDEaCzEUHEFkh3Gj0NTgBx37xnQA0tufzstA%3D"
                     ></v-img>
                     <div class="App-main-text-overlap">구글 드라이브</div>
-                    <div class="App-sub-text-overlap">언제 어디서나 필요한 정보를 간편하게 가져갈 수 있는 서비스! 최신 기술을 활용하여 편리한 사용자 경험을 제공합니다. 언어 및 종류에 제한 없이 모든 정보를 한 곳에서 확인하세요. 어떤 서비스를 원하시든, 저희가 해결해 드립니다. 효율성과 편리함을 경험하세요!</div>
+                    <div class="App-sub-text-overlap">undefined의 서비스를 위한 광고문 예시입니다:
+
+새로운 서비스 경험을 위해 도움이 필요하십니까? undefined는 여러분의 모든 요구를 충족시켜드립니다. 우리와 함께 하세요 - 완벽한 서비스 보장, 최고 효율성, 그리고 전문성을 자랑하는 undefined. 지금 바로 연락하세요!</div>
                 </div>
                 <v-row>
                     <v-col cols="4" class="d-flex justify-center" v-for="(aggregate, index) in aggregate" :key="index">
@@ -170,7 +172,7 @@ export default {
         sideBar: true,
         urlPath: null,
         flipped: [],
-        ImageUrl: 'https://oaidalleapiprodscus.blob.core.windows.net/private/org-IsZwoYj8yobpFySuytSuI26N/user-ha9EUDa76s1yoHT6JzgqOaFI/img-pDzsKENa6T3FU3zhxe6ck7V8.png?st=2023-07-12T03%3A36%3A38Z&se=2023-07-12T05%3A36%3A38Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-07-11T21%3A32%3A37Z&ske=2023-07-12T21%3A32%3A37Z&sks=b&skv=2021-08-06&sig=3%2B/ymK2QQPMVG2KPh0bcgMgP2hkhw7KclOZVyk5ZZvc%3D',
+        ImageUrl: 'https://oaidalleapiprodscus.blob.core.windows.net/private/org-IsZwoYj8yobpFySuytSuI26N/user-ha9EUDa76s1yoHT6JzgqOaFI/img-whMy3YbgyqIdiWt4RlglW0Gi.png?st=2023-07-12T05%3A57%3A56Z&se=2023-07-12T07%3A57%3A56Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-07-11T21%3A32%3A15Z&ske=2023-07-12T21%3A32%3A15Z&sks=b&skv=2021-08-06&sig=k2jtxy7uDEaCzEUHEFkh3Gj0NTgBx37xnQA0tufzstA%3D',
         aggregate: [
             { 
                 title: '파일', 
