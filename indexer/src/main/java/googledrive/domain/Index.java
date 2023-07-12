@@ -2,6 +2,8 @@ package googledrive.domain;
 
 import googledrive.IndexerApplication;
 import googledrive.domain.FileIndexed;
+
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
@@ -19,6 +21,7 @@ public class Index {
 
     private String fileName;
 
+    @ElementCollection
     private List<String> keywords;
 
     @PostPersist
@@ -36,13 +39,14 @@ public class Index {
 
     public static void fileCreatedPolicy(FileUploaded fileUploaded) {
         //implement business logic here:
-
-        /** Example 1:  new item 
         Index index = new Index();
+        index.setFileName(fileUploaded.getFileName());
+        index.setIndexName(fileUploaded.getFileName());
+        index.setKeywords(Arrays.asList(fileUploaded.getFileName()));
+
         repository().save(index);
 
-        */
-
+        
         /** Example 2:  finding and process
         
         repository().findById(fileUploaded.get???()).ifPresent(index->{

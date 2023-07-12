@@ -36,7 +36,7 @@ mvn spring-boot:run
 ## Test by API
 - drive
 ```
- http :8088/files fileName="fileName" fileSize="fileSize" isIndexed="isIndexed" isUploaded="isUploaded" videoUrl="videoUrl" 
+ http :8088/files fileName="fileName" fileSize=100
 ```
 - indexer
 ```
